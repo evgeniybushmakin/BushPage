@@ -11,8 +11,11 @@ function showNotification() {
         var notification = document.getElementById('notification');
         notification.style.display = 'block';
 
-        // Через 2 секунды скрыть уведомление
         setTimeout(function() {
             notification.style.display = 'none';
-        }, 2300);
+        }, 2800);
 }
+
+function ClosePage() {
+    window.close();
+};
