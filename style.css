@@ -116,12 +116,12 @@ body::before {
 }
 
 .profile-card__description__jobtitle {
-    width: 16ch;
+    width: 10ch;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid black;
     animation: flashing-border 0.75s step-end infinite,
-    changing-text 4s steps(16);
+    changing-text 4s steps(10);
 }
 
 .profile-card__stats {
