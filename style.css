@@ -120,8 +120,8 @@ body::before {
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid black;
-    animation: flashing-border 0.75s step-end infinite,
-    changing-text 4s steps(10);
+    animation: flashing-border 0.7s step-end infinite,
+    changing-text 4s steps(9);
 }
 
 .profile-card__stats {
