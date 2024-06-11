@@ -1,6 +1,6 @@
 document.getElementById('TelegramName').addEventListener('click', function () {
     var textarea = document.createElement("textarea");
-    textarea.value = "@EvgexaForblane";
+    textarea.value = "@EvgexaFor";
     document.body.appendChild(textarea);
     textarea.select();
     document.execCommand('copy');
